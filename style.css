@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-left: 0.3rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link a {
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: #f00;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+
+.hamburger span {
+  background-color: #fff;
+  width: 2rem;
+  height: 4px;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+.main-container {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+.content-text {
+  max-width: 680px;
+}
+
+.intro-title {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro-desc {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.values-title {
+  color: #333;
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.values-list {
+  list-style: disc;
+  font-size: 1.2rem;
+  padding-left: 2.5rem;
+  line-height: 1.8;
+}
+
+#value1 {
+  color: #eb471a;
+}
+
+#value2 {
+  color: #6f0def;
+}
+
+#value3 {
+  color: #089b94;
+}
+
+#value4 {
+  color: #f607af;
+}
+
+.team-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1078px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    line-height: 1.35;
+    padding: 50px 0 10px 0;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+
+  .nav-list.active {
+    display: flex;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .content-section {
+    padding-top: 0;
+    flex-direction: column;
+  }
+
+  .company-intro,
+  .values-title {
+    text-align: center;
+  }
+
+  .team-image {
+    margin-top: 2rem;
+  }
+}
