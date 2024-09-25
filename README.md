@@ -53,10 +53,12 @@ This project implements a responsive navigation bar using HTML5, CSS3, and JavaS
 ## Screenshots
 
 ### Desktop View
-![Desktop Navbar View](path_to_desktop_view_image)
+
+![Navbar desktop view](https://github.com/user-attachments/assets/961fcc47-0a53-4c30-9a7d-751629a842cc)
 
 ### Mobile View
-![Mobile Navbar View](path_to_mobile_view_image)
+
+![Navbar mobile view](https://github.com/user-attachments/assets/5a7278a9-8366-4abb-88fe-9fca38894a1f)
 
 ## Acknowledgements
 
