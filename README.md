@@ -1,2 +1,64 @@
-# Navbar
-A fully responsive navigation bar built with HTML, CSS, and JavaScript. Features include a mobile-friendly hamburger menu, smooth transitions, and a clean, modern design adaptable to all screen sizes.
+# Responsive Navbar
+
+This project implements a responsive navigation bar using HTML5, CSS3, and JavaScript. The navigation bar is fully responsive and includes a hamburger menu for mobile devices, making it adaptable across various screen sizes.
+
+## Features
+
+- Responsive Design: Adapts seamlessly from desktop to mobile.
+- Hamburger Menu: For smaller screens, a hamburger icon is displayed to toggle the menu.
+- Hover Effects: Links change color on hover to improve user interaction.
+
+## Project Structure
+
+├── public/
+
+│   ├── icon.png       # Favicon for the website
+
+│   ├── team.jpg       # Image for the 'Our Team' section
+
+├── style.css          # Stylesheet for the webpage
+
+├── app.js             # JavaScript for navbar functionality
+
+├── index.html         # Main HTML file
+
+├── README.md          # Project documentation
+
+## Technologies Used
+
+- HTML5: For creating the structure and content of the website.
+- CSS3: For responsive design and styling, including Flexbox for layout control and media queries for responsiveness.
+- JavaScript: For interactive elements like the hamburger menu.
+
+## Responsive Design
+
+- On large screens, the navigation bar is displayed horizontally.
+- On smaller screens (less than 1078px wide), the hamburger menu is shown, and clicking it reveals a vertical navigation menu.
+
+## Installation
+
+1. Clone this repository:
+
+   git clone https://github.com/Jiteshiyu/Navbar.git
+
+3. Open the project folder.
+
+4. Open `index.html` in your browser to view the page.
+
+## Usage
+
+- Click on the hamburger menu (on smaller screens) to open and close the navigation menu.
+- Hover over the navigation links to see the color change for an interactive experience.
+
+## Screenshots
+
+### Desktop View
+![Desktop Navbar View](path_to_desktop_view_image)
+
+### Mobile View
+![Mobile Navbar View](path_to_mobile_view_image)
+
+## Acknowledgements
+
+- Favicon sourced from [icon.png](./public/icon.png).
+- Team image sourced from [team.jpg](./public/team.jpg).
