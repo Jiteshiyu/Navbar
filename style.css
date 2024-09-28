@@ -1,14 +1,17 @@
+/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Global styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
 }
 
+/* Header styles */
 .header {
   background-color: #333;
   color: #fff;
@@ -57,11 +60,13 @@ body {
   border-radius: 3px;
 }
 
+/* Main container styles */
 .main-container {
   padding: 2rem;
   background-color: #fff;
 }
 
+/* Content section styles */
 .content-section {
   display: flex;
   align-items: center;
@@ -121,13 +126,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive styles */
 @media (max-width: 1078px) {
   .nav-list {
     display: none;
     flex-direction: column;
     background-color: #333;
     line-height: 1.35;
-    padding: 50px 0 10px 0;
+    padding: 50px 0 10px;
     width: 100%;
     position: absolute;
     top: 40px;
