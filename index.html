@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Welcome to our website, delivering high-quality services, and focusing on innovation, creativity, and customer satisfaction."
-    />
-    <title>Responsive Navbar | My Website</title>
-    <link rel="icon" type="image/png" href="./public/icon.png" />
+    <title>Responsive Navbar</title>
+    <link rel="icon" type="image" href="./public/icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -26,7 +22,7 @@
             <li class="nav-link"><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <div class="hamburger" aria-label="Menu">
+        <div class="hamburger">
           <span></span>
           <span></span>
           <span></span>
@@ -37,7 +33,7 @@
     <div class="main-container">
       <section class="content-section">
         <div class="content-text">
-          <article class="company-intro">
+          <div class="company-intro">
             <h1 class="intro-title">Welcome to Our Website</h1>
             <p class="intro-desc">
               We are committed to delivering high-quality services and ensuring
@@ -46,9 +42,9 @@
               With years of expertise and a focus on excellence, we provide a
               range of solutions tailored to meet your needs.
             </p>
-          </article>
+          </div>
 
-          <section class="company-values">
+          <div class="company-values">
             <h2 class="values-title">Our Core Values</h2>
             <ul class="values-list">
               <li id="value1">Quality Assurance</li>
@@ -56,19 +52,14 @@
               <li id="value3">Customer Satisfaction</li>
               <li id="value4">Integrity and Transparency</li>
             </ul>
-          </section>
+          </div>
         </div>
 
         <div class="content-image">
-          <img
-            src="./public/team.jpg"
-            alt="Our Team Working Together"
-            class="team-image"
-          />
+          <img src="./public/team.jpg" alt="team" class="team-image" />
         </div>
       </section>
     </div>
-
     <script src="app.js"></script>
   </body>
 </html>
