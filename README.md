@@ -34,7 +34,7 @@ This project implements a responsive navigation bar using HTML5, CSS3, and JavaS
 
 1. Clone this repository:
    ``` bash
-   git clone https://github.com/Jiteshiyu/Navbar.git
+   git clone https://github.com/Jiteshiyu/Navrush.git
    ```
 3. Open the project folder.
 
