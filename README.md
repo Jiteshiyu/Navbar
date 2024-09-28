@@ -1,4 +1,4 @@
-# Responsive Navbar
+# Navrush
 
 This project implements a responsive navigation bar using HTML5, CSS3, and JavaScript. The navigation bar is fully responsive and includes a hamburger menu for mobile devices, making it adaptable across various screen sizes.
 
