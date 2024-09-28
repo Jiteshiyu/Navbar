@@ -3,32 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Navbar</title>
+    <meta
+      name="description"
+      content="Welcome to our website, delivering high-quality services, and focusing on innovation, creativity, and customer satisfaction."
+    />
+    <title>Responsive Navbar | My Website</title>
     <link rel="icon" type="image/png" href="./public/icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <a href="/">My Website</a>
-      </div>
-      <nav class="navbar">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Services</a></li>
-          <li class="nav-item"><a href="#">Portfolio</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </header>
+    <div class="header-container">
+      <header class="header">
+        <div class="logo">
+          <a href="/">My Website</a>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">About</a></li>
+            <li class="nav-link"><a href="#">Services</a></li>
+            <li class="nav-link"><a href="#">Portfolio</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+    </div>
 
-    <main class="main-container">
+    <div class="main-container">
       <section class="content-section">
         <div class="content-text">
           <article class="company-intro">
@@ -42,22 +48,26 @@
             </p>
           </article>
 
-          <article class="company-values">
+          <section class="company-values">
             <h2 class="values-title">Our Core Values</h2>
             <ul class="values-list">
-              <li>Quality Assurance</li>
-              <li>Innovation and Creativity</li>
-              <li>Customer Satisfaction</li>
-              <li>Integrity and Transparency</li>
+              <li id="value1">Quality Assurance</li>
+              <li id="value2">Innovation and Creativity</li>
+              <li id="value3">Customer Satisfaction</li>
+              <li id="value4">Integrity and Transparency</li>
             </ul>
-          </article>
+          </section>
         </div>
 
         <div class="content-image">
-          <img src="./public/team.jpg" alt="Our Team" class="team-image" />
+          <img
+            src="./public/team.jpg"
+            alt="Our Team Working Together"
+            class="team-image"
+          />
         </div>
       </section>
-    </main>
+    </div>
 
     <script src="app.js"></script>
   </body>
