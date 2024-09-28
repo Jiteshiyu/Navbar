@@ -29,6 +29,7 @@ body {
   padding-left: 0.3rem;
 }
 
+/* Navbar styles */
 .nav-list {
   display: flex;
   list-style: none;
@@ -45,6 +46,7 @@ body {
   color: #f00;
 }
 
+/* Hamburger styles */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -78,6 +80,7 @@ body {
   max-width: 680px;
 }
 
+/* Company Intro styles */
 .intro-title {
   color: #007bff;
   font-size: 2.5rem;
@@ -89,6 +92,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/* Company Values styles */
 .values-title {
   color: #333;
   font-size: 1.7rem;
@@ -118,6 +122,7 @@ body {
   color: #f607af;
 }
 
+/* Team Image styles */
 .team-image {
   max-width: 400px;
   width: 100%;
