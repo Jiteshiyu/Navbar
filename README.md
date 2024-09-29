@@ -1,29 +1,28 @@
-
-
 # Navrush
 
 A Responsive Hamburger NAVBAR
-
-## Technologies Used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-- HTML5: For creating the structure and content of the website.
-- CSS3: For responsive design, styling and layout control.
-- JavaScript: For interactive elements like the hamburger menu.
-
 ## Features
 
 - Responsive Design: Adapts seamlessly from desktop to mobile.
-- Hamburger Menu: For smaller screens, a hamburger icon is displayed to toggle the menu.
+- Hamburger Menu: A hamburger icon is displayed to toggle the menu.
 - Hover Effects: Links change color on hover to improve user interaction.
 
-## Responsive Design
+## Design
 
 - On large screens, the navigation bar is displayed horizontally.
-- On smaller screens (less than 1078px wide), the hamburger menu is shown, and clicking it reveals a vertical navigation menu.
+- On smaller screens (less than 1078px wide), the hamburger menu is shown.
+- On clicking hamburger icon it reveals a vertical navigation menu.
+
+## Technologies Used
+
+- HTML5: For creating the structure and content of the website.
+- CSS3: For responsive design, styling and layout control.
+- JavaScript: For interactive elements like the hamburger menu.
 
 ## Installation
 
