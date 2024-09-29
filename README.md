@@ -1,29 +1,24 @@
+
+
 # Navrush
 
-This project implements a responsive navigation bar using HTML5, CSS3, and JavaScript. The navigation bar is fully responsive and includes a hamburger menu for mobile devices, making it adaptable across various screen sizes.
+A Responsive Hamburger NAVBAR
+
+## Technologies Used
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+- HTML5: For creating the structure and content of the website.
+- CSS3: For responsive design, styling and layout control.
+- JavaScript: For interactive elements like the hamburger menu.
 
 ## Features
 
 - Responsive Design: Adapts seamlessly from desktop to mobile.
 - Hamburger Menu: For smaller screens, a hamburger icon is displayed to toggle the menu.
 - Hover Effects: Links change color on hover to improve user interaction.
-
-## Project Structure
-```
-├── public/
-│   ├── icon.png       # Favicon for the website
-│   ├── team.jpg       # Image for the 'Our Team' section
-├── style.css          # Stylesheet for the webpage
-├── app.js             # JavaScript for navbar functionality
-├── index.html         # Main HTML file
-├── README.md          # Project documentation
-```
-
-## Technologies Used
-
-- HTML5: For creating the structure and content of the website.
-- CSS3: For responsive design and styling, including Flexbox for layout control and media queries for responsiveness.
-- JavaScript: For interactive elements like the hamburger menu.
 
 ## Responsive Design
 
@@ -36,24 +31,19 @@ This project implements a responsive navigation bar using HTML5, CSS3, and JavaS
    ``` bash
    git clone https://github.com/Jiteshiyu/Navrush.git
    ```
-3. Open the project folder.
-
-4. Open `index.html` in your browser to view the page.
+   
+2. Open the project folder.
+   
+3. Open `index.html` in your browser to view the page.
 
 ## Usage
 
 - Click on the hamburger menu (on smaller screens) to open and close the navigation menu.
 - Hover over the navigation links to see the color change for an interactive experience.
 
-## Screenshots
+## Support
+Give a 🌟 to this repo if you liked it .
 
-### Desktop View
-![Navbar desktop view](https://github.com/user-attachments/assets/961fcc47-0a53-4c30-9a7d-751629a842cc)
+Connect with me
 
-### Mobile View
-![Navbar mobile view](https://github.com/user-attachments/assets/5a7278a9-8366-4abb-88fe-9fca38894a1f)
-
-## Acknowledgements
-
-- Favicon sourced from [icon.png](./public/icon.png).
-- Team image sourced from [team.jpg](./public/team.jpg).
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/) [![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
