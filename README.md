@@ -12,9 +12,9 @@ You can view a live demo of the project [here](https://navrush.netlify.app/).
 
 ## Features
 
-- Responsive Design: Adapts seamlessly from desktop to mobile.
-- Hamburger Menu: A hamburger icon is displayed to toggle the menu.
-- Hover Effects: Links change color on hover to improve user interaction.
+- **Responsive Design:** Adapts seamlessly from desktop to mobile.
+- **Hamburger Menu:** A hamburger icon is displayed to toggle the menu.
+- **Hover Effects:** Links change color on hover to improve user interaction.
 
 ## Design
 
@@ -24,9 +24,9 @@ You can view a live demo of the project [here](https://navrush.netlify.app/).
 
 ## Technologies Used
 
-- HTML5: For creating the structure and content of the website.
-- CSS3: For responsive design, styling and layout control.
-- JavaScript: For interactive elements like the hamburger menu.
+- HTML5
+- CSS3
+- JavaScript
 
 ## Installation
 
