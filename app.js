@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  // Getting DOM elements
   let hamburger = document.querySelector(".hamburger");
   let navList = document.querySelector(".nav-list");
   
