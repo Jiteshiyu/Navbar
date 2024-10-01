@@ -27,7 +27,6 @@ body {
   text-decoration: none;
   font-size: 2.2rem;
   font-weight: bold;
-  padding-left: 0.3rem;
 }
 
 /* Navlist Styles */
@@ -91,7 +90,7 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 1078px) {
+@media (max-width: 768px) {
   .nav-list {
     display: none;
     flex-direction: column;
@@ -123,5 +122,17 @@ body {
 
   .hamburger {
     display: flex;
+  }
+}
+
+@media (max-width: 952px) {
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .nav-link a {
+    font-size: 1.3rem;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.5rem;
   }
 }
