@@ -8,7 +8,7 @@ A Responsive Hamburger NAVBAR
 
 ## Demo
 
-You can view a live demo of the project [here](https://navrush.netlify.app/).
+You can view a live demo of the project [Navrush](https://navrush.netlify.app/).
 
 ## Features
 
